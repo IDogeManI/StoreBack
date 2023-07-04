@@ -2,15 +2,15 @@
 
 namespace StoreBack.Models
 {
-    public class Order
+    public class OrderDto
     {
         [Key]
         public Guid Id { get; set; }
-        public List<Product> Products { get; set; } = null;
+        public List<ProductDto> Products { get; set; } = null;
         public string Adress { get; set; } = null;
         public string OrderStatus { get; set; } = "Ok";
 
-        public Order()
+        public OrderDto()
         {
             Id = Guid.NewGuid();
         }

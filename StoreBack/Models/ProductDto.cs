@@ -2,7 +2,7 @@
 
 namespace StoreBack.Models
 {
-    public class Product
+    public class ProductDto
     {
         [Key]
         [Required]
@@ -16,7 +16,7 @@ namespace StoreBack.Models
         [Required]
         public float Price { get; set; } = 0;
         public Guid? OrderID { get; set; }
-        public Product(string name, string description, string imageUrl, float price)
+        public ProductDto(string name, string description, string imageUrl, float price)
         {
             this.Id = Guid.NewGuid();
             this.Name = name;

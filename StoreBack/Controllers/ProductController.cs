@@ -10,33 +10,33 @@ namespace StoreBack.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private ApplicationContext productDb;
+        private readonly ApplicationContext productDb;
         public ProductController(ApplicationContext db)
         {
             productDb = db;
         }
         [HttpGet]
-        public async Task<List<Product>> Get()
+        public async Task<List<ProductDto>> Get()
         {
             return await productDb.Products.Where(x => x.OrderID == null).ToListAsync();
         }
 
         [HttpGet("order/{id}")]
-        public async Task<Order> Get(Guid id)
+        public async Task<OrderDto> Get(Guid id)
         {
             var tmpOrder = await productDb.Orders.FirstOrDefaultAsync(x => x.Id == id);
             if (tmpOrder == null)
             {
-                return new Order();
+                return new OrderDto();
             }
             return tmpOrder;
         }
 
         [HttpPost]
-        public string Post([FromBody] Order order)
+        public string Post([FromBody] OrderDto order)
         {
             if (order == null) { return "Invalid"; }
-            var tmpOrder = new Order() { Adress = order.Adress };
+            var tmpOrder = new OrderDto() { Adress = order.Adress };
             productDb.Orders.Add(tmpOrder);
             productDb.SaveChanges();
             //Some pay things
@@ -64,7 +64,7 @@ namespace StoreBack.Controllers
         }
 
         [HttpPut("product/{id}")]
-        public string PutProduct(int id, [FromBody] Product value)
+        public string PutProduct(int id, [FromBody] ProductDto value)
         {
             try
             {
@@ -82,7 +82,7 @@ namespace StoreBack.Controllers
             return "Success";
         }
         [HttpPut("order/{id}")]
-        public string PutOrder(int id, [FromBody] Order value)
+        public string PutOrder(int id, [FromBody] OrderDto value)
         {
             try
             {
