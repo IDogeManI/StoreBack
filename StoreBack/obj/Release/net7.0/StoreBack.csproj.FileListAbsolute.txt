@@ -71,3 +71,4 @@ D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\StoreBack.pdb
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\StoreBack.genruntimeconfig.cache
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\ref\StoreBack.dll
 D:\Solutions\Store\StoreBack\StoreBack\bin\Release\net7.0\web.config
+D:\Solutions\Store\StoreBack\StoreBack\bin\Release\net7.0\Microsoft.AspNetCore.SpaServices.Extensions.dll

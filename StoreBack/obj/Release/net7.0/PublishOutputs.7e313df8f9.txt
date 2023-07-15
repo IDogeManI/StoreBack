@@ -9,6 +9,7 @@ D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\StoreBack.p
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Azure.Core.dll
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Azure.Identity.dll
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.SpaServices.Extensions.dll
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 D:\Solutions\Store\StoreBack\StoreBack\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll

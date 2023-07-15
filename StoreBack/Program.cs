@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using StoreBack;
@@ -9,6 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddControllers();
+
+builder.Services.AddSpaStaticFiles(configuration =>
+{
+    configuration.RootPath = "wwwroot/";
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
@@ -45,18 +52,24 @@ var app = builder.Build();
 
 app.UseCors("EnableCORS");
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
+////app.UseDefaultFiles();
 
 app.UseRouting();
+
+app.UseStaticFiles();
+app.UseSpaStaticFiles();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
-
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
+});
+
+app.UseSpa(spa =>
+{
+    spa.Options.SourcePath = "wwwroot";
 });
 
 app.Run();
