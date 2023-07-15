@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\assets\\backet.png",
+      "PackagePath": "staticwebassets\\assets\\backet.png"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\assets\\boots.png",
+      "PackagePath": "staticwebassets\\assets\\boots.png"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\main.e61031336f96cd9c.js",
+      "PackagePath": "staticwebassets\\main.e61031336f96cd9c.js"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\polyfills.425ad40d20f47711.js",
+      "PackagePath": "staticwebassets\\polyfills.425ad40d20f47711.js"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\runtime.164c3bd6ff939898.js",
+      "PackagePath": "staticwebassets\\runtime.164c3bd6ff939898.js"
+    },
+    {
+      "Id": "D:\\Solutions\\Store\\StoreBack\\StoreBack\\wwwroot\\styles.dde097a57dc4204c.css",
+      "PackagePath": "staticwebassets\\styles.dde097a57dc4204c.css"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.StoreBack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.StoreBack.props",
+      "PackagePath": "build\\StoreBack.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StoreBack.props",
+      "PackagePath": "buildMultiTargeting\\StoreBack.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.StoreBack.props",
+      "PackagePath": "buildTransitive\\StoreBack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
