@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\Solutions\Store\StoreBack\StoreBack\bin\Release\net7.0\publish\</_PublishTargetUrl>
-    <History>True|2023-07-15T01:28:01.0940775Z;True|2023-07-15T04:03:58.2069407+03:00;True|2023-07-15T03:47:33.1768600+03:00;True|2023-07-15T03:46:50.1949761+03:00;True|2023-07-15T03:29:19.0443172+03:00;</History>
+    <History>True|2023-07-17T03:10:40.4020054Z;True|2023-07-15T04:28:01.0940775+03:00;True|2023-07-15T04:03:58.2069407+03:00;True|2023-07-15T03:47:33.1768600+03:00;True|2023-07-15T03:46:50.1949761+03:00;True|2023-07-15T03:29:19.0443172+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

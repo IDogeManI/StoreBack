@@ -71,3 +71,4 @@ D:\Solutions\Store\StoreBack\StoreBack\obj\Debug\net7.0\StoreBack.genruntimeconf
 D:\Solutions\Store\StoreBack\StoreBack\obj\Debug\net7.0\ref\StoreBack.dll
 D:\Solutions\Store\StoreBack\StoreBack\bin\Debug\net7.0\StoreBack.staticwebassets.runtime.json
 D:\Solutions\Store\StoreBack\StoreBack\bin\Debug\net7.0\web.config
+D:\Solutions\Store\StoreBack\StoreBack\bin\Debug\net7.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
